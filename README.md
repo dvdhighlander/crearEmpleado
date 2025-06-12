@@ -8,7 +8,7 @@ Hay un SWAGGER disponible: http://localhost:8080/swagger-ui/index.html#/employee
 <b>METODO:</b> GET</br>
 <b>PUERTI:</b> 8080</br>
 <b>URL:</b> http://localhost:8080/employee/create</br>
-<b>NOTAS:</b> Debe recibirlos siguientes parametros y tipo:</br>
+<b>NOTAS:</b> Debe recibirlos siguientes parametros:</br>
 - nombre</br>
 - apellido</br>
 - tipoDocumento</br>

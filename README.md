@@ -29,7 +29,7 @@ por la url donde se despliegue este servicio
 La base de datos utilizada fue MySQL tal y cmo se pidio en el ejercicio</br>
 El scripts para la creación de la tabla es:</br>
 
-CREATE TABLE `defaultdb`.`empleado` (</br>
+CREATE TABLE `empleado` (</br>
   `id` INT NOT NULL,</br>
   `nombre` VARCHAR(100) NOT NULL,</br>
   `apellido` VARCHAR(100) NOT NULL,</br>

@@ -21,8 +21,8 @@ Las fechas deben ir en formato <b>yyyy-MM-dd</b>
 <h4>- Servicio SOAP para crear nuevo empleado: </h4> 
 <b>PUERTO:</b> 8081</br>
 <b>URL:</b> localhost:8081/ws/employee.wsdl</br>
-<b>NOTAS:</b> El wsdl se puede obtener de esa dirección con el servicio corriendo, o hay una copia dentro del proyecto Employees, pero esta apunta a localhost, por lo que habria que editarla y cambiar la linea:</br>
-<soap:address location="http://localhost:8081/ws" /></soap:address>br>
+<b>NOTAS:</b> El wsdl se puede obtener de esa dirección con el servicio corriendo, o hay una copia dentro del proyecto Employees, pero esta apunta a localhost, por lo que habria que editarla y cambiar la linea 76:</br>
+soap:address location="http://localhost:8081/ws </br>
 por la url donde se despliegue este servicio
 
 <h2> CONECCION A BASE DE DATOS </h2> 

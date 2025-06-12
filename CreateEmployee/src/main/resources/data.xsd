@@ -1,0 +1,36 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://example.com/data"
+           targetNamespace="http://example.com/data"
+           elementFormDefault="qualified">
+
+    <xs:element name="saveRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="surename" type="xs:string"/>
+                <xs:element name="documentType" type="xs:string"/>
+                <xs:element name="document" type="xs:string"/>
+                <xs:element name="birthdate" type="xs:string"/>
+                <xs:element name="startDate" type="xs:string"/>
+                <xs:element name="position" type="xs:string"/>
+                <xs:element name="salary" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="saveResponse">
+        <xs:complexType>
+            <xs:sequence>
+            	<xs:element name="id" type="xs:int"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="surename" type="xs:string"/>
+                <xs:element name="documentType" type="xs:string"/>
+                <xs:element name="document" type="xs:string"/>
+                <xs:element name="birthdate" type="xs:string"/>
+                <xs:element name="startDate" type="xs:string"/>
+                <xs:element name="position" type="xs:string"/>
+                <xs:element name="salary" type="xs:double"/>
+                <xs:element name="message" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,6 +1,7 @@
 <h1> SERVICIO CREAR EMPLEADO</h1> 
 <h2> CONECCION A URL </h2> 
-
+Servicio REST: https://employees-250024265632.us-central1.run.app/employee/create
+Servicio SOAP: https://createemployee-250024265632.us-central1.run.app/ws/employee.wsdl
 Se crearon 2 servicios, un servicio SOPA para crear el empleado, y un serrvicio REST GET que llama el servicio anterior </br>
 <h3> ENDPOINTS DISPONIBLES REST </h3> 
 Hay un SWAGGER disponible: http://localhost:8080/swagger-ui/index.html#/employees-controller/createEmployee
